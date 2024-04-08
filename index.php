@@ -17,16 +17,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tweets</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sign In</a>
+          <a class="nav-link" href="logintest.php">Sign In</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -38,7 +35,7 @@
 </nav>
 
 
-<h1>Welkom bij de tweets</h1>
+<h1 class="kop">Welkom bij de Chirpify </h1>
 
 </body>
 </html>

@@ -13,7 +13,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // Output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "Name: " . $row["name"]. " - Email: " . $row["email"]. "<br>";
+    echo "Tweets: " . $row["tweets"]. "<br>";
   }
 } else {
   echo "0 results";

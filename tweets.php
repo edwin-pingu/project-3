@@ -7,18 +7,18 @@
 </head>
 <body>
 <?php
-$servername = "localhost";
-$tweets = "root";
+$sql = "SELECT * FROM your_table";
+$result = $conn->query($sql);
 
-
-try {
-  $conn = new PDO("mysql:host=$servername;dbname=tweets", $tweets);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connected successfully";
-} catch(PDOException $e) {
-  echo "Connection failed: " . $e->getMessage();
+if ($result->num_rows > 0) {
+  // Output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo "Name: " . $row["name"]. " - Email: " . $row["email"]. "<br>";
+  }
+} else {
+  echo "0 results";
 }
 ?>
+
 </body>
 </html>

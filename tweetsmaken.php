@@ -51,11 +51,13 @@
         die("Error!: " . $e->getMessage());
     }
     ?>
-
+    <div class="kleur"></div>
         <form action="tweets.php" method="post">
         <label for="merk">Maak u tweet</label>
         <input type="text" name="tweets" id="tweets_id">
         <br>
         <input type="submit" name="verzenden" value="Verzenden">
+
+    
 </body>
 </html>

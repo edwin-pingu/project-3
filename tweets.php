@@ -35,7 +35,7 @@ $sql = "SELECT * FROM tweetsshow";
 $conn = new PDO("mysql:host=$servername;dbname=tweets", $tweets);
 $result = $conn->query($sql);
 
-if ($result->tweets > 0) {
+if ($result->servername > 0) {
   // Output data of each row
   while($row = $result->fetch_assoc()) {
     echo "Tweets: " . $row["tweets"]. "<br>";

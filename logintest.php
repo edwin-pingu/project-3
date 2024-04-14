@@ -19,7 +19,7 @@
         $query->bindParam("username", $username);
         $query->execute();
         if($query->RowCount() == 1) {
-            $result = $query->fetch(PDO::FETCH_ASSOC)
+            $result = $query->fetch(PDO::FETCH_ASSOC);
             if (password_verify($password, $result ["password"])) {
             echo "Juist gegevenens!";
         } else {
@@ -38,7 +38,7 @@
 
     ?>
 
-    <form method="post" action="">
+    <form method="post" action="index.php">
         <label>Username</label>
         <input type="text" name="username"><br>
 

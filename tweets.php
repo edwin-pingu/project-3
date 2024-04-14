@@ -18,7 +18,7 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="tweets.php">Tweets</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="logintest.php">Sign In</a>
@@ -29,10 +29,13 @@
 </nav>
 
 <?php
+$servername = "localhost";
+$tweets = "root";
 $sql = "SELECT * FROM tweetsshow";
+$conn = new PDO("mysql:host=$servername;dbname=tweets", $tweets);
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+if ($result->tweets > 0) {
   // Output data of each row
   while($row = $result->fetch_assoc()) {
     echo "Tweets: " . $row["tweets"]. "<br>";
@@ -41,6 +44,10 @@ if ($result->num_rows > 0) {
   echo "0 results";
 }
 ?>
+
+<div class="kleur">
+
+</div>
 
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chirpify</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -20,7 +20,7 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="tweets.php">Tweets</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="logintest.php">Sign In</a>
@@ -31,7 +31,9 @@
 </nav>
 
 
-<h1 class="kop">Welkom bij de Chirpify </h1>
-
+<div class="kleur">
+<h1 class="kop">Welkom op Chirpify </h1>
+<p class="koptekst">We zijn verheugd om je kennis te laten maken met een revolutionair platform dat sociale media naadloos integreert met e-commerce, waardoor bedrijven en individuen hun sociale aanwezigheid op een geheel nieuwe manier kunnen monetariseren. Met Chirpify kun je moeiteloos likes, shares en opmerkingen omzetten in verkopen, waardoor je sociale interacties tastbare inkomstenstromen worden. Of je nu een klein bedrijf bent dat online verkopen wil stimuleren, een influencer die zijn volgers wil monetariseren, of een consument die graag producten ontdekt en rechtstreeks binnen zijn sociale feed koopt, Chirpify is jouw alles-in-één oplossing. Doe met ons mee op deze reis terwijl we het snijvlak van sociale media en handel opnieuw definiëren, en het volledige potentieel van jouw online aanwezigheid ontgrendelen. Laten we jouw wereld Chirpifyen!</p>
+</div>
 </body>
 </html>

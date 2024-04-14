@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tweets</title>
+    <title>Tweetsmaken</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -18,7 +18,7 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="tweets.php">Tweets</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="logintest.php">Sign In</a>
@@ -52,7 +52,7 @@
     }
     ?>
 
-        <form action="tweetsmaken.php" method="post">
+        <form action="tweets.php" method="post">
         <label for="merk">Maak u tweet</label>
         <input type="text" name="tweets" id="tweets_id">
         <br>

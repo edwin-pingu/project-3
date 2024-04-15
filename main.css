@@ -11,12 +11,26 @@
     font-size: 4rem;
 }
 
+.koph2 {
+    display: flex;
+    margin-left: 8px;
+    float: left;
+    font-size: 2rem;
+}
+
 .koptekst {
     display: flex;
     float: left;
     margin-left: 4rem;
     width: 40vw;
     margin-top: 3rem;
+}
+
+.koptekst2 {
+    display: flex;
+    float: left;
+    margin-left: 4rem;
+    width: 40vw;
 }
 
 .doosje{

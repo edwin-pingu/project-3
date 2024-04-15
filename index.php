@@ -22,9 +22,6 @@
         <li class="nav-item">
         <a class="nav-link" href="tweets.php">Tweets</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="logintest.php">Sign In</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -32,7 +29,8 @@
 
 
 <div class="kleur">
-<h1 class="kop">Welkom op Chirpify </h1>
+<h1 class="kop">Welkom op Chirpify</h1>
+<h2 class="koph21">Welkomsbericht</h2>
 <p class="koptekst">We zijn verheugd om je kennis te laten maken met een revolutionair platform dat sociale media naadloos integreert met e-commerce, waardoor bedrijven en individuen hun sociale aanwezigheid op een geheel nieuwe manier kunnen monetariseren. Met Chirpify kun je moeiteloos likes, shares en opmerkingen omzetten in verkopen, waardoor je sociale interacties tastbare inkomstenstromen worden. Of je nu een klein bedrijf bent dat online verkopen wil stimuleren, een influencer die zijn volgers wil monetariseren, of een consument die graag producten ontdekt en rechtstreeks binnen zijn sociale feed koopt, Chirpify is jouw alles-in-één oplossing. Doe met ons mee op deze reis terwijl we het snijvlak van sociale media en handel opnieuw definiëren, en het volledige potentieel van jouw online aanwezigheid ontgrendelen. Laten we jouw wereld Chirpifyen!</p>
 <br>
 <h2 class="koph2">Instructie voor nieuwkomers</h2>

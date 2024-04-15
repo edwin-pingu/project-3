@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -20,9 +21,6 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="tweets.php">Tweets</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="logintest.php">Sign In</a>
             </li>
         </ul>
         </div>
@@ -55,8 +53,10 @@
         die("Error!: " . $e->getMessage());
     }
     ?>
-
-        <form action="login.php" method="post">
+    <div class="kleur">
+        <div class="doosje">
+        <p>Als u een account wilt aanmaken kan u dat hier beneden doen. Veel plezier op Chirpify!</p>
+        <form action="logintest.php" method="post">
         <label for="merk">username</label>
         <input type="text" name="username" id="username">
         <br>
@@ -64,6 +64,8 @@
         <input type="text" name="password" id="password">
         <br>
         <input type="submit" name="verzenden" value="Verzenden">
-
+        <p>Heeft u al een account <a href="logintest.php">Sign In</a></p>
+        </div>
+    </div>
 </body>
 </html>

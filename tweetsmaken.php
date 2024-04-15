@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tweetsmaken</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,9 +21,6 @@
         </li>
         <li class="nav-item">
         <a class="nav-link" href="tweets.php">Tweets</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="logintest.php">Sign In</a>
         </li>
       </ul>
     </div>
@@ -51,13 +50,17 @@
         die("Error!: " . $e->getMessage());
     }
     ?>
-    <div class="kleur"></div>
+    <div class="kleur">
+        <div class="doosje">
+          <p>Nu dat u een account hebt kunt u een tweet plaatsen. De tweet die u wilt gaan plaatsen kunt u hier onder plaatsen.</p>
         <form action="tweets.php" method="post">
         <label for="merk">Maak u tweet</label>
         <input type="text" name="tweets" id="tweets_id">
         <br>
         <input type="submit" name="verzenden" value="Verzenden">
-
+        </form>
+        </div>
+    </div>
     
 </body>
 </html>
